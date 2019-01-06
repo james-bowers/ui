@@ -1,0 +1,55 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf ./lib && tsc",
+    "test": "jest --watch --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/james-bowers/ui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/james-bowers/ui/issues"
+  },
+  "homepage": "https://github.com/james-bowers/ui#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/enzyme": "^3.1.14",
+    "@types/enzyme-adapter-react-16": "^1.0.3",
+    "@types/jest": "^23.3.3",
+    "@types/react": "^16.4.16",
+    "@types/react-dom": "^16.0.8",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "enzyme-to-json": "^3.3.4",
+    "jest": "^23.6.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "ts-jest": "^23.10.4",
+    "typescript": "^3.1.1"
+  },
+  "jest": {
+    "testURL": "http://localhost",
+    "collectCoverage": true,
+    "coveragePathIgnorePatterns": ["node_modules", "__tests__"],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "reporters": [
+      "default"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "testMatch": [
+      "**/*.spec.(ts|tsx)"
+    ]
+  }
+}
