@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Area /> renders Area 1`] = `
+<styled.div>
+  example Area
+</styled.div>
+`;
+
+exports[`<Area /> renders Padding 1`] = `
+<styled.div
+  className="padding_3"
+>
+  example Area
+</styled.div>
+`;

@@ -4,6 +4,7 @@ import Button from "../components/Button";
 import * as Input from "../components/Input";
 import Heading from "../components/Heading";
 import Modal from "../components/Modal";
+import Area, { Padding } from "../components/Area";
 import * as Grid from "../components/Grid";
 import { ThemeProvider } from "../components/theme";
 
@@ -94,6 +95,17 @@ const Example = () => (
             some value
           </Input.Input>
         </div>
+      </section>
+      <section>
+        <h1>Area</h1>
+        <Area>a normal area</Area>
+        <Area hero>a hero area</Area>
+        <Area>
+          <Padding multiplier={3}>3 Padding inside an area</Padding>
+        </Area>
+        <Area hero>
+          <Padding multiplier={5}>5 Padding inside a hero</Padding>
+        </Area>
       </section>
     </div>
   </ThemeProvider>
