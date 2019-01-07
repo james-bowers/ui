@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Grid /> grid item 1`] = `
+<styled.div
+  className="col"
+>
+  content inside of grid item
+</styled.div>
+`;
+
+exports[`<Grid /> with grid child width 1`] = `
+<styled.div
+  className="width_5"
+>
+  content inside Grid
+</styled.div>
+`;
+
+exports[`<Grid /> without grid child width 1`] = `
+<styled.div
+  className="width_equal"
+>
+  content inside of grid container
+</styled.div>
+`;

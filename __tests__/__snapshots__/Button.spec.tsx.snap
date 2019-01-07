@@ -1,21 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Button /> renders Button 1`] = `
-<Component>
-  <button>
-    example button
-  </button>
-</Component>
+<styled.button>
+  example button
+</styled.button>
 `;
 
 exports[`<Button /> renders Button with onClick 1`] = `
-<Component
+<styled.button
   onClick={[Function]}
 >
-  <button
-    onClick={[Function]}
-  >
-    example button
-  </button>
-</Component>
+  example button
+</styled.button>
 `;

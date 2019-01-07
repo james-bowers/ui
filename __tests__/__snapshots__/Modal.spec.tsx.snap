@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal /> hides the modal 1`] = `<div />`;
+
+exports[`<Modal /> shows the modal 1`] = `
+<div>
+  <styled.div
+    onClick={[Function]}
+  >
+    <styled.div
+      onClick={[Function]}
+    >
+      content inside modal
+    </styled.div>
+  </styled.div>
+</div>
+`;

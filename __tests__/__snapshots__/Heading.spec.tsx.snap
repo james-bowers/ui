@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Heading /> renders H1 1`] = `
+<styled.h1>
+  Heading one
+</styled.h1>
+`;
+
+exports[`<Heading /> renders H2 1`] = `
+<styled.h2>
+  Heading two
+</styled.h2>
+`;
+
+exports[`<Heading /> renders H3 1`] = `
+<styled.h3>
+  Heading two
+</styled.h3>
+`;
+
+exports[`<Heading /> renders H4 1`] = `
+<styled.h4>
+  Heading two
+</styled.h4>
+`;
