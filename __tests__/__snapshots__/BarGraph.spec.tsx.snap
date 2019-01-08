@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BarGraph /> renders BarGraph 1`] = `
+<div
+  style={
+    Object {
+      "height": "200px",
+    }
+  }
+>
+  <Component
+    width="equal"
+  >
+    <Component
+      key="0"
+    >
+      <styled.div>
+        <StyledDataPoint
+          dataPoint={
+            Object {
+              "value": 35,
+            }
+          }
+        />
+      </styled.div>
+    </Component>
+    <Component
+      key="1"
+    >
+      <styled.div>
+        <StyledDataPoint
+          dataPoint={
+            Object {
+              "value": 75,
+            }
+          }
+        />
+      </styled.div>
+    </Component>
+    <Component
+      key="2"
+    >
+      <styled.div>
+        <StyledDataPoint
+          dataPoint={
+            Object {
+              "value": 5,
+            }
+          }
+        />
+      </styled.div>
+    </Component>
+    <Component
+      key="3"
+    >
+      <styled.div>
+        <StyledDataPoint
+          dataPoint={
+            Object {
+              "value": 20,
+            }
+          }
+        />
+      </styled.div>
+    </Component>
+    <Component
+      key="4"
+    >
+      <styled.div>
+        <StyledDataPoint
+          dataPoint={
+            Object {
+              "value": 39,
+            }
+          }
+        />
+      </styled.div>
+    </Component>
+    <Component
+      key="5"
+    >
+      <styled.div>
+        <StyledDataPoint
+          dataPoint={
+            Object {
+              "value": 95,
+            }
+          }
+        />
+      </styled.div>
+    </Component>
+  </Component>
+</div>
+`;

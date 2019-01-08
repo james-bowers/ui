@@ -7,6 +7,7 @@ import Modal from "../components/Modal";
 import Area, { Padding } from "../components/Area";
 import * as Grid from "../components/Grid";
 import { ThemeProvider } from "../components/theme";
+import BarGraph from "../components/BarGraph";
 
 const Example = () => (
   <ThemeProvider
@@ -20,6 +21,33 @@ const Example = () => (
     }}
   >
     <div>
+      <Area hero>
+        <Padding multiplier={2}>
+          <BarGraph
+            height={200}
+            data={[
+              {
+                value: 35
+              },
+              {
+                value: 75
+              },
+              {
+                value: 5
+              },
+              {
+                value: 20
+              },
+              {
+                value: 39
+              },
+              {
+                value: 95
+              }
+            ]}
+          />
+        </Padding>
+      </Area>
       <Grid.Container width={3}>
         <Grid.Item>
           <p>one</p>
